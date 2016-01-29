@@ -31,6 +31,5 @@ for(i in 1:nrow(bigTable)){
 # change the factor into a numeric so we can analyse it!
 bigTable$F=as.numeric(as.character(bigTable$F))
 
-# take a closer look at the scores
-summary(bigTable$F)
-bigTable[bigTable$F==1732,]
+# Let's take a look at our table of leagues, ready for analysis
+bigTable
